@@ -7,4 +7,4 @@ It was @popcornmix who inspired me to write this little script.
 Addon skeleton, some code and screensaver-black.png were shamelessly borrowed
 from https://github.com/XBMC-Addons/screensaver.picture.slideshow .
 
-Later adapted for Vero 4K
+Later adapted for Vero 4K, then even later converted for Matrix(python3)
