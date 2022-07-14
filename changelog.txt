@@ -1,5 +1,8 @@
+v2.0.14
+- Removed all .decode('utf-8')
+
 v2.0.13
-- Changed xmbc.pythin version  to match Matrix.
+- Changed xmbc.pythin version to match Matrix.
 
 v2.0.12
 - Match version in changelog.
