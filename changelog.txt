@@ -1,3 +1,6 @@
+v2.0.13
+- Changed xmbc.pythin version  to match Matrix.
+
 v2.0.12
 - Match version in changelog.
 
