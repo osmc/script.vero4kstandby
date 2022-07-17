@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.vero4kstandby" name="Vero 4K standby" version="2.0.12" provider-name="asavah">
+<addon id="script.vero4kstandby" name="Vero 4K standby" version="2.0.14" provider-name="asavah">
   <requires>
-    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="xbmc.python" version="3.0.0"/>
   </requires>
   <extension point="xbmc.ui.screensaver" library="default.py"/>
   <extension point="xbmc.addon.metadata">

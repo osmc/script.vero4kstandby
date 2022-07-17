@@ -1,3 +1,9 @@
+v2.0.14
+- Removed all unneeded utf decodeing
+
+v2.0.13
+- Changed xmbc.python version to match Matrix.
+
 v2.0.12
 - Match version in changelog.
 

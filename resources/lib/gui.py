@@ -4,9 +4,9 @@ import xbmc, xbmcgui, xbmcaddon
 __addon__    = sys.modules[ '__main__' ].__addon__
 __addonid__  = sys.modules[ '__main__' ].__addonid__
 __cwd__      = sys.modules[ '__main__' ].__cwd__
-__skindir__  = xbmc.getSkinDir().decode('utf-8')
-__skinhome__ = xbmc.translatePath( os.path.join( 'special://home/addons/', __skindir__, 'addon.xml' ).encode('utf-8') ).decode('utf-8')
-__skinxbmc__ = xbmc.translatePath( os.path.join( 'special://xbmc/addons/', __skindir__, 'addon.xml' ).encode('utf-8') ).decode('utf-8')
+__skindir__  = xbmc.getSkinDir()
+__skinhome__ = xbmc.translatePath( os.path.join( 'special://home/addons/', __skindir__, 'addon.xml' ).encode('utf-8') )
+__skinxbmc__ = xbmc.translatePath( os.path.join( 'special://xbmc/addons/', __skindir__, 'addon.xml' ).encode('utf-8') )
 
 class Screensaver(xbmcgui.WindowXMLDialog):
     def __init__( self, *args, **kwargs ):
